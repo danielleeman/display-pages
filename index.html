@@ -3,6 +3,7 @@
 <html>
   
 <head>
+    <script type="module" src="https://unpkg.com/x-frame-bypass"></script>
     <title>full screen iframe</title>
     <style type="text/css">
         html {
@@ -30,7 +31,7 @@
 </head>
   
 <body>
-    <iframe src="https://udacity.zendesk.com/hc/en-us"
+    <iframe is="x-frame-bypass" src="https://udacity.zendesk.com/hc/en-us"
             frameborder="0" 
             marginheight="0" 
             marginwidth="0" 
